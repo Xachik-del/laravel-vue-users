@@ -1,0 +1,19 @@
+.skill-row {
+  align-items: center; /* Center items vertically */
+}
+
+.icon-column {
+  display: flex; /* Use flexbox for icon alignment */
+  justify-content: center; /* Center items horizontally */
+}
+
+.add-icon,
+.remove-icon {
+  cursor: pointer; /* Change cursor to pointer on hover */
+  margin-top: 4px; /* Adjust top margin for spacing */
+}
+
+.no-margin {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
