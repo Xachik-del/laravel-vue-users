@@ -6,9 +6,8 @@
           :rules="rules.nameRules"
           label="Name"
         ></v-text-field>
-        <v-btn type="submit" block :disabled="name && !formIsValid">Submit</v-btn>
+        <v-btn type="submit" block :disabled="!formIsValid">Submit</v-btn>
       </v-form>
-        {{name}}
     </v-sheet>
 </template>
 
